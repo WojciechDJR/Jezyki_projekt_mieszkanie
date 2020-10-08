@@ -1,0 +1,5 @@
+php bin/console make:entity  - tworzenie bazy
+php bin/console make:migration - migracje 
+php bin/console doctrine:migrations:migrate - uruchomienie migracji
+php -S localhost:8080 public/index.php - start
+php bin/console debug:router - endpointy
